@@ -194,9 +194,9 @@ footer {
 
 	#img {
 		border: solid 1px white;
-		/*height: 200px;*/
+		height: 200px;
 		display: block;
 		margin: auto;
-		width: 70%
+		width: 50%;
 	}
 }
