@@ -173,6 +173,11 @@ footer {
 		width: 60px;
 		font-size: .6em;
 	}
+	#nav li ul li {
+		font-size: 0.8em;
+		opacity: .7;	
+	}
+
 
 	#texto {
 		width: 95%;
@@ -186,4 +191,12 @@ footer {
 		left: 15px;
 		z-index: -1;
 	}	
+
+	#img {
+		border: solid 1px white;
+		/*height: 200px;*/
+		display: block;
+		margin: auto;
+		width: 80%
+	}
 }
