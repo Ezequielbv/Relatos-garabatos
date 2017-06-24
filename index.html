@@ -5,22 +5,73 @@
   <title>Relatos y otros Grabatos</title>
   <meta name="viewport" content="width=device-width">
 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/stylesheet.css">
   <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
   
   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </head>
 
 <body>
 <!-- HEADER -->
-<div class="container">
-  <div class="header">
     <div id="header">
       <h1 class="titulo"><a href="index.html">Relatos y otros garabatos </a></h1>
     </div>
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="contenido/construyendo.html">Dani Broncano</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a href="contenido/construyendo.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Relatos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="contenido/01_destierra.html">Quién destierra quién</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="contenido/construyendo.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Microrelatos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">El muro</a></li>
+            <li><a href="#">Hojas de laurel</a></li>
+            <li><a href="#">El anuncio en el periódico</a></li>
+            <li><a href="#">El olor de los limones</a></li>
+            <li><a href="#">La búsqueda, la arena y el cielo</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="contenido/construyendo.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Poesia <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Condena o eterna</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contenido/construyendo.html">Sobre mi</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<!--  ANTIGUO FORMATO, SIN COLLAPSE
    <ul id="nav">
    <div class="nav">
     <li><a href="contenido/construyendo.html">Relatos</a>
@@ -35,11 +86,11 @@
         <li><a href="contenido/03_anuncioper.html">El anuncio en el periódico</a></li>
         <li><a href="contenido/04_olorlimones.html">El olor de los limones</a></li>
         <li><a href="contenido/05_arenacielo.html">La búsqueda, la arena y el cielo</a></li>
-<!--         <li><a href="#">Los del verano, los del invierno</a></li>
+        <li><a href="#">Los del verano, los del invierno</a></li>
         <li><a href="#">Vacaciones al más allá</a></li>
         <li><a href="#">La fábrica de hielo</a></li>
         <li><a href="#">Territorio de telares</a></li>
-        <li><a href="#">De animales y otras formas de morir salvaje</a></li> -->
+        <li><a href="#">De animales y otras formas de morir salvaje</a></li>
       </ul>
     </li>
     <li><a href="contenido/construyendo.html">Poesía</a>
@@ -51,7 +102,11 @@
     </li>
     </div>
   </ul>
-  </div> 
+  </div>  
+-->
+
+
+
   <!-- HEADER -->
 
   <div class="contenido">
